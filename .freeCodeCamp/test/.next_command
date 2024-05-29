@@ -132,3 +132,15 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git commit -am "Done"
 pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 git commit -am "added sql dump"
+git remote add origin https://github.com/tipaye/hair-salon-database.git
+git branch -M main
+git remote add origin https://github.com/tipaye/hair-salon-database.git
+git push -u origin main
+git push -f origin main
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+git remote add origin https://github.com/tipaye/hair-salon-database_2.git
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+git log
+git remote
