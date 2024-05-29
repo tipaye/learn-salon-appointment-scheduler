@@ -130,3 +130,5 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./salon.sh
 ./salon.sh
 git commit -am "Done"
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git commit -am "added sql dump"
